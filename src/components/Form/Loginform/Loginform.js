@@ -1,13 +1,15 @@
 import React from 'react';
+import Button from '../../Button/Button';
+import Input from '../../Input/Input';
 
-
-const Loginform=({type,name,placeholder})=> {
+const Loginform=({formname})=> {
     return (
         <form>
             <fieldset>
-                <legend></legend>
-                    <input type={type} name={name} placeholder={placeholder} />
-                    <input type={type} name={name} placeholder={placeholder} />
+                <legend><h2>{formname}</h2></legend><br/>
+                    <Input type="text" name="Email" placeholder="Enter your Email" /><br/>
+                    <Input type="password" name="Password" placeholder="Enter password" /><br/>
+                    <Button label="Login Button" /> 
             </fieldset>
         </form>
     )
