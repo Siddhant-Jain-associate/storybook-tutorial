@@ -12,5 +12,5 @@ const Template = (args) => <Register {...args}/>
 export const SignUp = Template.bind({});
 
 SignUp.args={
-    formname:"RegisterForm"
+    formname:"RegisterForm",
 }

@@ -11,7 +11,7 @@ const RegisterForm=({formname})=> {
             <Input type="email" name="Email" placeholder="Enter your email" /><br/>
             <Input type="password" name="Password" placeholder="Enter your password" /><br/>
             <Input type="password" name="Confirm password" placeholder="Confirm Password" /><br/>
-            <Button label="Register" />
+            <Button label="Register" backgroundColor='#c2eaf2'/>
             </fieldset>
         </form>
     )

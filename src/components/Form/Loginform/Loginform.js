@@ -9,7 +9,7 @@ const Loginform=({formname})=> {
                 <legend><h2>{formname}</h2></legend><br/>
                     <Input type="text" name="Email" placeholder="Enter your Email" /><br/>
                     <Input type="password" name="Password" placeholder="Enter password" /><br/>
-                    <Button label="Login Button" /> 
+                    <Button label="Login Button"  /> 
             </fieldset>
         </form>
     )

@@ -11,4 +11,5 @@ export const Login = template.bind({});
 
 Login.args={
     formname:'LoginForm'
+   
 }

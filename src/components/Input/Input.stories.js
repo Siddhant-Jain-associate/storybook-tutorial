@@ -33,10 +33,3 @@ password.args={
     placeholder:'Enter Password',
     required:true
 }
-export const confirmPassword = Template.bind({});
-confirmPassword.args={
-    type:'password',
-    name:'confirmpassword',
-    placeholder:'Enter confirm Password',
-    required:true
-}
