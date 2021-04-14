@@ -3,7 +3,23 @@ import Alerts from './Alert';
 
 
 export default{
-    title:'Material-UI/Alerts'
+    title:'Material-UI/Alerts',
+    components:Alerts,
+    argTypes:{
+        Button:{
+            type:'radio',
+            options:['withUndo','withOutUndo']
+        },
+
+        variant:{
+            control:{
+                type:'radio',
+                options:['outlined','filled']
+            }
+            
+        }
+    }
+
 }
 
 
@@ -37,6 +53,7 @@ errorAlert.args={
     type:"error",
     label:"This is Error Alert!-Check it out."
 }
+
 
 // export const successAlert = () => <Alert severity="success">This is Success Alert!-Check it out.</Alert>
 // export const informationAlert = () => <Alert severity="info">This is Information Alert!-Check it out.</Alert>

@@ -1,17 +1,6 @@
 import React from 'react';
 import Buttons from './Button';
-import { makeStyles } from '@material-ui/core/styles';
 
-import {action} from '@storybook/addon-actions';
-
-const Styles = makeStyles((theme) => ({
-    margin: {
-      margin: theme.spacing(1),
-    },
-    extendedIcon: {
-      marginRight: theme.spacing(1),
-    },
-  }));
 
 export default{
     title:"Material-UI/Button",
