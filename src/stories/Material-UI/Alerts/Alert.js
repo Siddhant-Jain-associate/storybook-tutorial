@@ -7,9 +7,10 @@ const Alerts = (props) => {
   if(props.Button=== "withUndo"){
     options = (<Buttons label="UNDO" size="large"/>)
   }
+
   return(
     <Alert 
-    onClose={()=>{}}
+      onClose={()=>{}}
       action={options}
       severity={props.type}  
       variant={props.variant} 
